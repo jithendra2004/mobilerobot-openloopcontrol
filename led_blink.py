@@ -1,4 +1,4 @@
-from robomaster import robot
+ from robomaster import robot
 import time
 
 
@@ -14,12 +14,12 @@ if __name__ == '__main__':
     b – int: [0~255], RGB blue component value
     effect – enum: (“on”, “off”, “flash”, “breath”, “scrolling”) lighting effect type, on: always on; off: always off; flash: blinking; breath: breathing; scrolling: horse racing Lamp (only valid for PTZ lamp)
     '''
-    for i in range(10):
-        ep_led.set_led(comp="all",r=255,g=0,b=0,effect="on")   
+    for i in range(2):
+        ep_led.set_led(comp="all",r=255,g=255,b=0,effect="on")   
         time.sleep(2)
-        ep_led.set_led(comp="all",r=0,g=255,b=0,effect="on")
+        ep_led.set_led(comp="all",r=255,g=225,b=255,effect="on")
         time.sleep(2)
-        ep_led.set_led(comp="all",r=0,g=0,b=255,effect="on")
+        ep_led.set_led(comp="all",r=0,g=206,b=204,effect="on")
         time.sleep(2)        
     
     print("Completed...")

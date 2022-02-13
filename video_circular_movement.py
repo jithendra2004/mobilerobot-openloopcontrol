@@ -19,8 +19,8 @@ if __name__ == '__main__':
     print("Camera streaming started...")
     ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P)    
     
-    ep_chassis.drive_speed(x=0.2,y=0,z=20)
-    time.sleep(20)
+    ep_chassis.drive_speed(x=0.4,y=0,z=20)
+    time.sleep(15)
     ep_chassis.drive_speed(x=0,y=0,z=0)
     
     ep_camera.stop_video_stream()

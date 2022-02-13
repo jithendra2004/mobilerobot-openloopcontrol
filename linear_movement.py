@@ -1,4 +1,4 @@
-from robomaster import robot
+ from robomaster import robot
 import time
 
 if __name__ == '__main__':
@@ -15,8 +15,7 @@ if __name__ == '__main__':
     '''
     ep_chassis.move(x=2, y=0, z=0, xy_speed=0.75).wait_for_completed()
 
-    ep_chassis.move(x=0, y=0, z=90, xy_speed=1).wait_for_completed()
+    ep_chassis.move(x=0, y=0, z=50, xy_speed=1).wait_for_completed()
 
-    ep_chassis.move(x=2, y=0, z=0, xy_speed=0.75).wait_for_completed()
-
+    ep_chassis.move(x=3.5, y=0, z=0, xy_speed=0.75).wait_for_completed()
     ep_robot.close()
