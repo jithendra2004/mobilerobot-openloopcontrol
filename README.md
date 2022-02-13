@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
 Upload your video in Youtube and paste your video-id here
 
-![IMAGE ALT TEXT HERE](https://drive.google.com/file/d/177o7RZ7sQhH3H5NRnqfPB1IzzPCcERAx/view?usp=sharing)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtube.com/shorts/yU-nks6k-fg?feature=share)
 <br/>
 <br/>
 <br/>
