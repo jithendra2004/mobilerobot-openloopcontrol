@@ -3,7 +3,7 @@ import time
 
 
 if __name__ == '__main__':
-    ep_robot = robot.Robot()
+    eA_robot = robot.Robot()
     ep_robot.initialize(conn_type="ap")
 
     ep_led = ep_robot.led
